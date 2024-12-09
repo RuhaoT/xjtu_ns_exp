@@ -1,0 +1,16 @@
+FROM asappinc/ubuntu18
+USER root
+
+RUN apt update \
+    && apt-get update \
+    && apt install -y iputils-ping \
+    && apt-get install -y bind9 \
+    && apt-get install -y dnsutils \
+    && apt-get install -y vim \
+    && apt-get install -y net-tools \
+    && apt-get install -y tcpdump \
+    && rndc-confgen -a \
+    && apt-get install -y python3-pip python3-dev \
+    && echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc \
+    && exec bash \
+    && source ~/.bashrc
