@@ -1,0 +1,83 @@
+{
+  "message": "Our chain was replaced",
+  "new_chain": [
+    {
+      "hash": "ab9828ca390581b72629069049793ba3c99bb8e5e9e7b97a55c71957e04df9a3",
+      "index": 1,
+      "previous_hash": 1,
+      "proof": 100,
+      "timestamp": 1735386386.3082263,
+      "transactions": []
+    },
+    {
+      "hash": "0000f022715579d145f60a0fc07d44a46eb8dc34441a7b17e9b227e0bcae29c2",
+      "index": 2,
+      "previous_hash": "5cab0eb20e3a2c0ce0ed64c4ba540a8f67cffb43c6a438f5191311efe7165a0c",
+      "proof": 28850,
+      "timestamp": 1735387062.800026,
+      "transactions": [
+        {
+          "amount": 1,
+          "recipient": "d08a093ca4f44dbbb4818d13ec59ad4e",
+          "sender": "0"
+        }
+      ]
+    },
+    {
+      "hash": "0000c834ca1f4e15805b7c76a7458c3e64f972848a6118623cb83ccacd280665",
+      "index": 3,
+      "previous_hash": "544d712a24ee19f8fa1eea16d5e9322840250ae4e5cb8659eb0312edf77b980c",
+      "proof": 24401,
+      "timestamp": 1735387063.6655335,
+      "transactions": [
+        {
+          "amount": 1,
+          "recipient": "d08a093ca4f44dbbb4818d13ec59ad4e",
+          "sender": "0"
+        }
+      ]
+    },
+    {
+      "hash": "000076b073bd700deaa30d61ee68adf18b7c71c7bc56322fb05db22aca50ec04",
+      "index": 4,
+      "previous_hash": "856f9953113a32c78ae6b1c237faa55b6acaf784c9744fa26a4bbcfb00c93440",
+      "proof": 70275,
+      "timestamp": 1735387064.4427218,
+      "transactions": [
+        {
+          "amount": 1,
+          "recipient": "d08a093ca4f44dbbb4818d13ec59ad4e",
+          "sender": "0"
+        }
+      ]
+    },
+    {
+      "hash": "0000bdc13a31e5c7943de28df75dfa95a5ab19d2cf55e06457b3ffd50dafebc4",
+      "index": 5,
+      "previous_hash": "fcaf5d7a661aa9e230c892c7fe62fd90e1816f51b83243782d3cd2e7746df10f",
+      "proof": 113337,
+      "timestamp": 1735387065.4890103,
+      "transactions": [
+        {
+          "amount": 1,
+          "recipient": "d08a093ca4f44dbbb4818d13ec59ad4e",
+          "sender": "0"
+        }
+      ]
+    },
+    {
+      "hash": "0000ad75d9ed2c6ce250a6d0700abb00a25594cccc2edebfe9fea3dacbbe7f54",
+      "index": 6,
+      "previous_hash": "4c5f509c33697add052a7aee36eb5c4e69caa412d2db3abdcb87a8a4d5a5abd9",
+      "proof": 87064,
+      "timestamp": 1735387066.2484612,
+      "transactions": [
+        {
+          "amount": 1,
+          "recipient": "d08a093ca4f44dbbb4818d13ec59ad4e",
+          "sender": "0"
+        }
+      ]
+    }
+  ]
+}
